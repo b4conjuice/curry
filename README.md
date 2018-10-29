@@ -1,5 +1,4 @@
 # curry for 👌
-> a simple react boilerplate for single page web applications
 
 ## getting started
 ```shell

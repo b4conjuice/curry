@@ -52,8 +52,10 @@ export default class App extends Component {
             <span role="img" aria-label="ok-hand">
               👌
             </span>{' '}
-            <Curry href="https://twitter.com/StephenCurry30">stephen curry</Curry> has made{' '}
-            <StatsStyles>{currentTotalThrees}</StatsStyles> threes so far this season
+            <Curry href="https://twitter.com/StephenCurry30" target="_blank" rel="noopener noreferrer">
+              stephen curry
+            </Curry>{' '}
+            has made <StatsStyles>{currentTotalThrees}</StatsStyles> threes so far this season
           </p>
           <p>
             <span role="img" aria-label="fire">
@@ -76,7 +78,7 @@ export default class App extends Component {
           </div>
         </main>
         <footer>
-          <a href="https://github.com/dlopez807/curry.git">
+          <a href="https://github.com/dlopez807/curry.git" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithubSquare} />
           </a>
         </footer>
