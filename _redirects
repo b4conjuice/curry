@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://brave-mirzakhani-3d6749.netlify.com/* https://curryforthree.com/:splat 301!

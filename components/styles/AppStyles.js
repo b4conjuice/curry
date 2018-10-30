@@ -45,8 +45,7 @@ const AppStyles = styled.div`
 
   footer {
     height: 5%;
-    color: var(--gold);
-    background: var(--blue);
+    background: transparent;
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
