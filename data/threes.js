@@ -3,7 +3,7 @@ const threes = [
   // vs bkn
   // vs mil
   // vs min
-  // vs nor
+  7, // vs nor
   2, // @ chi
   7, // @ bkn
   6, // @ nyk
