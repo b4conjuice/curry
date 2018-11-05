@@ -51,7 +51,6 @@ export default class App extends Component {
       loading,
     });
     client.fetch('*[_type == "three"] {threes}').then(response => {
-      console.log({ response });
       const newThrees = response.map(three => three.threes);
       localStorage.setItem('threes', JSON.stringify(newThrees));
       if (this.state.loading)
