@@ -43,6 +43,10 @@ const AppStyles = styled.div`
     }
   }
 
+  .loading {
+    margin: 0 auto;
+  }
+
   footer {
     height: 5%;
     background: transparent;
