@@ -31,7 +31,6 @@ const AppStyles = styled.div`
 
   main {
     color: var(--gray);
-    overflow: scroll;
     -webkit-overflow-scrolling: touch;
     height: 95%;
     padding: 4vw;
